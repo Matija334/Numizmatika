@@ -1,0 +1,40 @@
+.card {
+    margin: auto;
+    margin-top: 2rem;
+}
+.body{
+    width: 500px;
+}
+
+.card-img-top {
+    height: 100%;
+    object-fit: contain;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.card-text {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.opis {
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+    white-space: pre-wrap;
+    text-align: justify;
+}
+
+.btn-primary {
+    margin-top: 1rem;
+}
